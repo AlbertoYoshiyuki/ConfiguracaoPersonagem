@@ -108,10 +108,12 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="0"
+                android:id="@+id/tvForca"
                 android:gravity="right"/>
 
             <SeekBar
                 android:id="@+id/sbForca"
+                android:max="5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
 
